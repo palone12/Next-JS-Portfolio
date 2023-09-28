@@ -7,9 +7,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST() {
   try {
     const data = await resend.emails.send({
-      from: "",
-      to: [""],
-      subject: "Hello world",
+      to: ["alonepranay123@gmail.com"],
+      subject: "Hiring Me",
       react: (
         <>
           <p>Email Body</p>
