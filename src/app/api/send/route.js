@@ -11,7 +11,7 @@ export async function POST() {
       subject: "Hiring Me",
       react: (
         <>
-          <p>Email Body</p>
+          <p>Email Body res</p>
         </>
       ),
     });
